@@ -1,7 +1,17 @@
 import React from 'react'
+import { Link } from 'react-router'
 
 export default React.createClass({
   render() {
-    return <div>Hello, React Router!</div>
+    return (
+      <div>
+        <h1><Link to='/' activeClassName='active-home'>React Router Tutorial</Link></h1>
+        <ul role='nav'>
+          <li><Link to='/about' activeClassName='active'>About</Link></li>
+          <li><Link to='/repos' activeClassName='active'>Repos</Link></li>
+        </ul>
+        {this.props.children}
+      </div>
+    )
   }
 })
