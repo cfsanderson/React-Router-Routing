@@ -8,8 +8,8 @@ class Repos extends Component {
       <div className='inner-comp'>
         <h2>Here is the Repo Component</h2>
         <ul role='nav'>
-          <li><Link  to='/first-repo' activeClassName='active'>First Repo</Link></li>
-          <li><Link  to='/second-repo' activeClassName='active'>Second Repo</Link></li>
+          <li><Link  to='/repos/first-repo' activeClassName='active'>First Repo</Link></li>
+          <li><Link  to='/repos/second-repo' activeClassName='active'>Second Repo</Link></li>
         </ul>
         {this.props.children}
       </div>
