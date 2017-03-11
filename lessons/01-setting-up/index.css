@@ -17,12 +17,20 @@ a {
   background-color: rgb(182, 217, 192);
   margin: auto;
   padding: 45px;
+  display: flex;
+  flex-direction: column;
+}
+
+.main-navbar h1 {
+  font-size: 3em;
+  margin: 0;
 }
 
 .main-navbar ul {
   list-style-type: none;
   display: flex;
   padding-left: 0;
+  margin: 0;
 }
 
 .main-navbar ul li {
