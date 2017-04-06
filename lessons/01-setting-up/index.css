@@ -14,7 +14,9 @@ a {
 }
 
 .main-navbar {
-  background-color: rgb(182, 217, 192);
+  background: radial-gradient(rgb(212, 232, 218), rgb(182, 217, 192));  
+  height: 200px;
+  /*background: radial-gradient(rgba(45, 70, 99, 1), rgba(14, 46, 83, 1));*/
   margin: auto;
   padding: 45px;
   display: flex;
