@@ -2,8 +2,7 @@
 
 I have recompiled all of the notes from the original tutorial repo into this one file. See below...
 
-# This is my version of the [React Router Tutorial](https://github.com/reactjs/react-router-tutorial)
-
+---
 
 # #1 Setting up the Project
 
